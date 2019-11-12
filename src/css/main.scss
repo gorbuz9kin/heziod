@@ -1,0 +1,14 @@
+// BASE
+@import "./base//fonts";
+@import "./base/_reset";
+@import "./base/_mixins";
+@import "./base//colors";
+@import "./base/_base";
+
+// SECTIONS
+@import "./sections/_header";
+
+// HOME PAGE
+@import "./pages/home/main-screen";
+@import "./pages/home/voluable";
+@import "./pages/home/services";

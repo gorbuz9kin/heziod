@@ -1,0 +1,42 @@
+.main-screen-hp {
+  position: relative;
+  background-color: #032D50;
+  color: #fff;
+  &__decor-img-1 {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+  }
+  &__decor-img-2 {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+  }
+  &__wrapper {
+    width: 100%;
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    width: 50%;
+    padding-top: 60px;
+  }
+  &__content {
+    width: 50%;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 1.72;
+    letter-spacing: 0.046em;
+    &--bold {
+      font-size: 30px;
+      line-height: 1.33;
+      letter-spacing: 0.04em;
+      margin-bottom: 48px;
+      font-family: 'HelveticaNowText-Bold';
+    }
+  }
+}
