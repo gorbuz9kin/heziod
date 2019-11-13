@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>office-building</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hesiod-Stories" transform="translate(-278.000000, -668.000000)">
+            <g id="2-copy-2" transform="translate(131.000000, 594.000000)">
+                <g id="library">
+                    <g id="office-building" transform="translate(147.000000, 74.000000)">
+                        <path d="M65.84375,10.078125 L65.84375,0 L20.15625,0 L20.15625,10.078125 L0,10.078125 L0,86 L86,86 L86,10.078125 L65.84375,10.078125 Z M60.8046875,5.0390625 L60.8046875,80.9609375 L55.765625,80.9609375 L55.765625,50.2226563 L30.234375,50.2226563 L30.234375,80.9609375 L25.1953125,80.9609375 L25.1953125,5.0390625 L60.8046875,5.0390625 Z M50.7265625,60.3007813 L35.2734375,60.3007813 L35.2734375,55.2617188 L50.7265625,55.2617188 L50.7265625,60.3007813 Z M35.2734375,65.3398438 L40.4804688,65.3398438 L40.4804688,80.9609375 L35.2734375,80.9609375 L35.2734375,65.3398438 Z M45.5195312,65.3398438 L50.7265625,65.3398438 L50.7265625,80.9609375 L45.5195312,80.9609375 L45.5195312,65.3398438 Z M5.0390625,15.1171875 L20.15625,15.1171875 L20.15625,80.9609375 L5.0390625,80.9609375 L5.0390625,15.1171875 Z M80.9609375,80.9609375 L65.84375,80.9609375 L65.84375,15.1171875 L80.9609375,15.1171875 L80.9609375,80.9609375 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                        <rect id="Rectangle" fill="#1FBF53" x="10" y="21" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="10" y="30" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="10" y="41" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="10" y="51" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="71" y="21" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="71" y="30" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="71" y="41" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="71" y="51" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="10" y="60" width="5" height="5"></rect>
+                        <rect id="Rectangle" fill="#1FBF53" x="71" y="60" width="5" height="5"></rect>
+                        <path d="M56,10 L30,10 L30,25 L56,25 L56,10 Z M50.8684211,19.9438202 L35.1315789,19.9438202 L35.1315789,15.0561798 L50.8684211,15.0561798 L50.8684211,19.9438202 Z" id="Shape" fill="#1FBF53" fill-rule="nonzero"></path>
+                        <path d="M54,30 L31,30 L31,43 L54,43 L54,30 Z M50,39 L36,39 L36,35 L50,35 L50,39 Z" id="Shape" fill="#1FBF53" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="251px" viewBox="0 0 460 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-landing" transform="translate(-980.140625, -140.000000)">
+            <g id="header-section" transform="translate(0.140625, 0.000000)">
+                <g id="Triangle">
+                    <g id="Group-2" transform="translate(876.319539, 58.042314)">
+                        <g id="Group" opacity="0.620186942" transform="translate(289.332484, 241.542023) scale(-1, 1) rotate(-11.000000) translate(-289.332484, -241.542023) translate(32.832484, 46.042023)" stroke="#1FBF53" stroke-width="29">
+                            <path d="M3.98046875,11.5234375 C71.1888021,12.09375 120.283854,32.8528646 151.265625,73.8007812" id="Path-3" opacity="0.820126488" transform="translate(77.623047, 42.662109) rotate(9.000000) translate(-77.623047, -42.662109) "></path>
+                            <path d="M157.929688,107.292969 C172.770578,138.653567 203.370775,154.333866 249.730277,154.333866" id="Path-4" opacity="0.820126488"></path>
+                            <path d="M275.558594,154.333866 C350.800781,151.893825 392.339844,192.788066 400.175781,277.01659" id="Path-5" opacity="0.820126488"></path>
+                            <path d="M402.628906,300.398738 C407.261719,355.601252 443.822917,385.498483 512.3125,390.090429" id="Path-6" opacity="0.820126488"></path>
+                        </g>
+                        <g id="Group-Copy" opacity="0.620186942" transform="translate(483.412017, 300.347582) scale(-1, 1) rotate(-11.000000) translate(-483.412017, -300.347582) translate(205.412017, 157.847582)"></g>
+                        <path d="M194.351567,277.525706 C269.593754,275.085666 311.132817,315.979907 318.968754,400.208431" id="Path-5" stroke="#1FBF53" stroke-width="29" opacity="0.820126488" transform="translate(256.660160, 338.815546) scale(-1, 1) rotate(-11.000000) translate(-256.660160, -338.815546) "></path>
+                        <path d="M771.361548,336.152878 C671.496233,336.942731 684.72339,221.004407 596.75112,192.991872 C508.778851,164.979338 334.120378,165.519965 372.751661,204.748829" id="Path-2" stroke="#1FBF53" stroke-width="29" opacity="0.820126488" transform="translate(569.309116, 254.799946) scale(-1, 1) rotate(-11.000000) translate(-569.309116, -254.799946) "></path>
+                        <path d="M652.499875,272.875525 C599.101438,311.23712 471.378782,296.299494 512.294797,387.860159" id="Path-9" stroke="#1FBF53" stroke-width="29" opacity="0.620186942" transform="translate(578.423015, 330.367842) rotate(11.000000) translate(-578.423015, -330.367842) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

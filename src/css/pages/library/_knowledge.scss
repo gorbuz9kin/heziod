@@ -1,0 +1,43 @@
+.knowledge {
+  &__wrapper {
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 90px 15px 110px;
+  }
+  &__title {
+    font-size: 34px;
+    color: #00000A;
+    font-family: 'HelveticaNowText-Medium';
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  &__item {
+    width: 100%;
+    max-width: calc((100% - 40px) / 3);
+    background-color: #fff;
+    padding: 78px 34px 50px;
+    border-radius: 24px;
+    box-shadow: 0 24px 43px 7px rgba(0, 0, 0, 0.07);
+    text-align: center;
+  }
+  &__icon {
+    margin-bottom: 60px;
+  }
+  &__label {
+    font-size: 30px;
+    color: #000;
+    font-family: 'HelveticaNowText-ExtraBold';
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D4D4D;
+  }
+}

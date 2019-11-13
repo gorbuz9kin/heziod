@@ -1,0 +1,26 @@
+section.form
+  p.form__title Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  .form__wrapper
+    .form__description
+      .form__img
+        img(src="./../../../img/contact_us.svg")
+      p.form__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ullamcorper mauris, mattis posuere.
+    .form__details
+      p.form__label Contact Us
+      form.form__contact-us
+        .form__field
+          input(type="text" name="name")
+          label
+            span Name
+            span *
+        .form__field
+          input(type="text" name="email")
+          label
+            span Email
+            span *
+        .form__field
+          textarea(name="message")
+          label
+            span Message
+            span *
+        button.form__btn(type="submit") Submit

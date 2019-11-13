@@ -7,8 +7,31 @@
 
 // SECTIONS
 @import "./sections/_header";
+@import "./sections//footer";
 
 // HOME PAGE
 @import "./pages/home/main-screen";
 @import "./pages/home/voluable";
 @import "./pages/home/services";
+@import "./pages/home/products";
+@import "./pages/home/request";
+
+// ABOUT PAGE
+@import "./pages/about/banner";
+@import "./pages/about/our-story";
+@import "./pages/about/values";
+@import "./pages/about/advisors";
+
+// PRODUCTS PAGE
+@import "./pages/products/banner";
+@import "./pages/products/decision";
+
+// TRANSCRIPTION PAGE
+@import "./pages/transcription/content";
+@import "./pages/transcription/team";
+
+// KNOWLEDGE PAGE
+@import "./pages/library/knowledge";
+
+// KNOWLEDGE PAGE
+@import "./pages/contact-us/form";

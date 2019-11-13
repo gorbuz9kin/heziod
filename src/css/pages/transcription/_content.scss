@@ -1,0 +1,29 @@
+.scribe-content {
+  background-color: #EAEEF1;
+  &__wrapper {
+    max-width: 1210px;
+    width: 100%;
+    padding: 60px 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 100%;
+    max-width: calc((100% - 40px) / 3);
+    img {
+      margin-bottom: 15px;
+    }
+  }
+  &__item-title {
+    color: #00000A;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'HelveticaNowText-Bold';
+  }
+  &__item-text {
+    font-size: 16px;
+    color: #4D4D4D;
+    line-height: 1.5;
+  }
+}
