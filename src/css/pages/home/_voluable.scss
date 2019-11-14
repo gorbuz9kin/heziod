@@ -45,8 +45,11 @@
     }
   }
   &__btn {
+    display: block;
     width: 224px;
     height: 70px;
+    text-align: center;
+    line-height: 66px;
     border-radius: 35px;
     background-color: #1FBF53;
     color: #032D50;

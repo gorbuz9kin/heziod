@@ -4,6 +4,12 @@ header.header
       a(href="/")
         img(src="./img/logo.svg")
     nav.header__nav
-      a.header__nav-link.header__nav-link--active(href="/about.html") About
-      a.header__nav-link(href="/products.html") Product
+      a.header__nav-link(href="/about.html") About
+      p#product-nav.header__nav-link.header__nav-link--dropdown
+        span Product
+        span#inner-nav.header__inner-nav
+          a(href="./products.html") Products
+          a(href="./hesiod-transcription.html") Hesiod Scribe
+          a(href="./hesiod-library.html") Hesiod Library
+          a(href="./hesiod-stories.html") Hesiod Stories
       a.header__nav-button(href="/contact-us.html") Contact Us

@@ -45,10 +45,11 @@
     border: 1px solid #979797;
     border-radius: 25px;
     margin-bottom: 18px;
+    transition: all 0.3s ease-in-out;
     &:last-of-type {
       margin-bottom: 0;
     }
-    &--gray {
+    &:hover {
       background-color: #EAEEF1;
       border-color: #EAEEF1;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
