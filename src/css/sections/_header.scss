@@ -9,10 +9,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 767px) {
+      flex-direction: column;
+      justify-content: center;
+    }
   }
   &__nav {
     display: flex;
     align-items: center;
+    @media (max-width: 767px) {
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 15px;
+    }
   }
   &__nav-link {
     font-size: 16px;
@@ -69,6 +78,9 @@
     &--dropdown-active {
       opacity: 1;
     }
+    @media (max-width: 767px) {
+      margin-bottom: 10px;
+    }
   }
   &__inner-nav {
     position: absolute;
@@ -116,6 +128,9 @@
     &:hover {
       background-color: #fff;
       color: #1FBF53;
+    }
+    @media (max-width: 767px) {
+      margin-left: 0;
     }
   }
 }
