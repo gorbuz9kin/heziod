@@ -119,6 +119,22 @@ function fonts() {
     .pipe(browserSync.stream());
 };
 
+/* Task for PHP */
+function php() {
+  return gulp.src('./src/**/*.php')
+    .pipe(newer('./build/'))
+    .pipe(gulp.dest('./build/'))
+    .pipe(browserSync.stream());
+};
+
+/* Task for htaccess */
+function files() {
+  return gulp.src('./src/.htaccess')
+    .pipe(newer('./build/'))
+    .pipe(gulp.dest('./build/'))
+    .pipe(browserSync.stream());
+};
+
 // Jekyll
 function jekyll() {
   return cp.spawn("bundle", ["exec", "jekyll", "build"], { stdio: "inherit" });
@@ -131,6 +147,8 @@ function watchChanges() {
   gulp.watch('./src/js/**/*.js', scripts);
   gulp.watch('./src/img/**/*.*', images);
   gulp.watch('./src/fonts/**/*.*', fonts);
+  gulp.watch('./src/**/*.php', php);
+  gulp.watch('./src/.htaccess', files);
   gulp.watch(
     [
       "./_includes/**/*",
@@ -145,7 +163,7 @@ function watchChanges() {
 
 /* Tasks */
 const watchFiles = gulp.parallel(watchChanges, webserver);
-const build = gulp.series(gulp.parallel(html, styles, scripts, images, fonts), watchFiles);
+const build = gulp.series(gulp.parallel(html, styles, scripts, images, fonts, php, files), watchFiles);
 
 /* export tasks */
 exports.clean = clean;

@@ -7,20 +7,24 @@ section.form
       p.form__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ullamcorper mauris, mattis posuere.
     .form__details
       p.form__label Contact Us
-      form.form__contact-us
+      form#contact-form.form__contact-us(autocomplete="off")
+        //- BEGIN Hidden Required Fields
+        input(type="hidden" name="project_name" value="HESIOD SITE")
+        input(type="hidden" name="admin_email" value="denis.gorobzeev@gmail.com")
+        input(type="hidden" name="form_subject" value="Contact us form")
+        //- END Hidden Required Fields
         .form__field
-          input(type="text" name="name")
-          label
-            span Name
-            span *
+          input.form__field-input.form__field-input--name(type="text" name="name" placeholder="Name*" autocomplete="off")
+          p.form__field-error Name must contain 3 letters at least.
         .form__field
-          input(type="text" name="email")
-          label
-            span Email
-            span *
+          input.form__field-input.form__field-input--email(type="text" name="email" placeholder="Email*" autocomplete="off")
+          p.form__field-error Please enter a valid email address.
         .form__field
-          textarea(name="message")
-          label
-            span Message
-            span *
+          textarea.form__field-input.form__field-input--message(name="message" placeholder="Message*")
+          p.form__field-error Message must contain 10 letters at least.
         button.form__btn(type="submit") Submit
+
+.modal
+  button.modal__btn
+    img(src="./../../../img/icon_close.svg")
+  p.modal__text Thank you for your message, we will be in contact shortly.
