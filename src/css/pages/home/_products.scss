@@ -19,6 +19,10 @@
       width: 100%;
       max-width: 507px;
     }
+    @media (max-width: 767px) {
+      padding: 30px 0;
+      width: 70%;
+    }
   }
   &__details {
     width: 50%;

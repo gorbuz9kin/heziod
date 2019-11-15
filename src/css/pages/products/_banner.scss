@@ -6,10 +6,16 @@
   background-color: #032D50;
   position: relative;
   border-bottom: 1px solid #fff;
+  @media (max-width: 767px) {
+    height: 200px;
+  }
   img {
     position: absolute;
     right: 0;
     bottom: 0;
+    @media (max-width: 767px) {
+      max-width: 40%;
+    }
   }
   &__wrapper {
     width: 100%;
@@ -24,6 +30,9 @@
       max-width: 1210px;
       padding: 0 15px;
       margin: 0 auto;
+      @media (max-width: 767px) {
+        font-size: 40px;
+      }
     }
   }
 }
