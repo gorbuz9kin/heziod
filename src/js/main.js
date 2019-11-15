@@ -68,3 +68,16 @@ $('.modal__btn').click(function() {
   $('.modal').removeClass('modal--visible');
 });
 
+// advisors slider
+$('#advisors-slider').slick({
+  nextArrow: '<button class="advisors__slider-arrow advisors__slider-arrow--right"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+  prevArrow: '<button class="advisors__slider-arrow advisors__slider-arrow--left"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+});
+
+// team slider
+$('#team-slider').slick({
+  nextArrow: '<button class="team__slider-arrow team__slider-arrow--right"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+  prevArrow: '<button class="team__slider-arrow team__slider-arrow--left"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+  // fade: true,
+});
+

@@ -5,8 +5,8 @@
   }
   &__wrapper {
     width: 100%;
-    max-width: 1210px;
-    padding: 0 15px;
+    max-width: 1270px;
+    // padding: 0 15px;
     margin: 0 auto;
   }
   &__slider {
@@ -14,7 +14,7 @@
   }
   &__slider-item {
     position: relative;
-    display: flex;
+    display: flex !important;
     justify-content: flex-end;
     @media (max-width: 767px) {
       position: static;
@@ -89,4 +89,21 @@
       justify-content: center;
     }
   }
+  &__slider-arrow {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    z-index: 123;
+    &--left {
+      right: 140px;
+      transform: rotate(180deg) translateY(4px);
+    }
+    &--right {
+      right: 60px;
+    }
+  }
+}
+
+.slick-slide {
+  padding: 30px;
 }
