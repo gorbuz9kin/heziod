@@ -37,6 +37,14 @@
       }
       a {
         padding: 0 4px;
+        color: #032D50;
+        text-decoration: underline;
+        &:visited {
+          color: #032D50;
+        }
+        &:hover {
+          color: #1FBF53;
+        }
       }
       strong {
         font-family: 'HelveticaNowText-Bold';
@@ -61,5 +69,34 @@
         padding: 0 4px 0 0;
       }
     }
+  }
+  &__table {
+    th,
+    tr,
+    td {
+      border: 1px solid #4D4D4D;
+    }
+    td {
+      padding: 5px;
+    }
+  }
+  &__table-definitions {
+    tr > td:first-of-type {
+      width: 130px;
+      font-family: 'HelveticaNowText-Bold';
+      color: #00000A;
+    }
+  }
+  &__table-cookie {
+    thead td {
+      font-family: 'HelveticaNowText-Bold';
+      color: #00000A;
+    }
+    td:first-of-type {
+      max-width: 150px;
+    }
+  }
+  &__list-item-author {
+    overflow-wrap: break-word;
   }
 }
