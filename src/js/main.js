@@ -1,8 +1,8 @@
 // header dropdown open/close
-$("#product-nav").click(function() {
-  $('#product-nav').toggleClass("header__nav-link--dropdown-active");
-  $("#inner-nav").toggleClass("header__inner-nav--show");
-});
+// $("#product-nav").click(function() {
+//   $('#product-nav').toggleClass("header__nav-link--dropdown-active");
+//   $("#inner-nav").toggleClass("header__inner-nav--show");
+// });
 
 // send contact form
 $("#contact-form").submit(function(e) {

@@ -14,7 +14,8 @@
   }
   &__img {
     width: 50%;
-    padding: 60px 25px 40px;
+    // padding: 60px 25px 40px;
+    padding: 0 25px;
     img {
       width: 100%;
       max-width: 507px;
@@ -34,10 +35,12 @@
   }
   &__title {
     color: #1FBF53;
-    font-size: 20px;
-    font-family: 'Poppins';
+    font-size: 34px;
+    padding: 0 15px;
+    font-family: HelveticaNowText-Bold;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    text-align: center;
   }
   &__subtitle {
     color: #00000A;
@@ -69,9 +72,15 @@
       background-color: #EAEEF1;
       border-color: #EAEEF1;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+      & > img {
+        opacity: 1;
+      }
     }
     img {
+      display: none;
       margin-right: 35px;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
     }
     span {
       font-size: 20px;

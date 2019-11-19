@@ -20,6 +20,9 @@
       max-width: 100%;
       padding-bottom: 20px;
     }
+    @media (max-width: 767px) {
+      margin-right: 0;
+    }
   }
   &__title {
     color: #00000A;
@@ -36,30 +39,13 @@
     line-height: 1.7;
   }
   &__slider-wrapper{
+    max-width: 100%;
     .slick-slide {
       padding: 0;
     }
-    max-width: calc(100% - 542px - 50px);
-    padding: 50px 0 50px 90px;
-    position: relative;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 184px;
-      height: 100%;
-      background-color: #EAEEF1;
-      border-radius: 5px;
-      z-index: -1;
-    }
-    @media (max-width: 1024px) {
-      max-width: 600px;
-      margin: 0 auto;
-    }
     @media (max-width: 767px) {
       max-width: 100%;
-      padding: 30px 0 30px 50px;
+      padding: 30px 0;
       &:before {
         width: 33%;
       }
@@ -69,15 +55,44 @@
     position: relative;
   }
   &__slider-item {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+  }
+  &__img {
     max-width: 502px;
     border-radius: 24px;
-    overflow: hidden;
+    position: relative;
+    padding: 50px 0;
     img {
       max-width: 100%;
       height: auto;
     }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -90px;
+      width: 184px;
+      height: 100%;
+      background-color: #EAEEF1;
+      border-radius: 5px;
+      z-index: -1;
+    }
     @media (max-width: 767px) {
       max-width: 100%;
+      padding-left: 50px;
+      &:before {
+        left: 0px;
+        width: 100px;
+      }
     }
   }
   &__slider-controls {
@@ -99,13 +114,16 @@
   }
   &__slider-arrow {
     position: absolute;
-    bottom: -50px;
+    bottom: -20px;
     &--left {
       right: 100px;
       transform: rotate(180deg) translateY(4px);
     }
     &--right {
       right: 0;
+    }
+    @media (max-width: 767px) {
+      bottom: -30px;
     }
   }
 }

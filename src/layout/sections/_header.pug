@@ -4,11 +4,12 @@ header.header
       a(href="/")
         img(src="./img/logo.svg")
     nav.header__nav
-      a.header__nav-link(href="/about.html") About
-      p#product-nav.header__nav-link.header__nav-link--dropdown
-        span Product
-        span#inner-nav.header__inner-nav
-          a(href="./products.html") Products
+      a.header__nav-link(href="./about.html") About
+      .header__nav-dropdown
+        a.header__nav-link(href="./products.html")
+          span Products
+          img(src="./../../img/angle-down-solid.svg")
+        span.header__inner-nav
           a(href="./hesiod-transcription.html") Hesiod Scribe
           a(href="./hesiod-library.html") Hesiod Library
           a(href="./hesiod-stories.html") Hesiod Stories
