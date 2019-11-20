@@ -130,6 +130,7 @@
       }
     }
     @media (max-width: 767px) {
+      display: none;
       position: static;
       transform: translateY(0);
       opacity: 1;
