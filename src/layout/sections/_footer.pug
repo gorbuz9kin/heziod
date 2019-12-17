@@ -4,7 +4,7 @@ footer.footer
       img(src="./img/logo_footer.svg")
     .footer__column
       p.footer__title Products
-      a.footer__link(href="./hesiod-transcription.html") Hesiod Scribe
+      a.footer__link(href="./hesiod-transcription.html") Hesiod Transcription
       a.footer__link(href="./hesiod-library.html") Hesiod Library
       a.footer__link(href="./hesiod-library.html") Hesiod Stories
     .footer__column
@@ -33,3 +33,13 @@ footer.footer
 
 //- scripts
 script(src="./js/main.js")
+script.
+  $('#advisors-slider').slick({
+    nextArrow: '<button class="advisors__slider-arrow advisors__slider-arrow--right"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+    prevArrow: '<button class="advisors__slider-arrow advisors__slider-arrow--left"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+  });
+
+  $('#team-slider').slick({
+    nextArrow: '<button class="team__slider-arrow team__slider-arrow--right"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+    prevArrow: '<button class="team__slider-arrow team__slider-arrow--left"><img src="./../../../img/icon_arrow_right.svg" /></button>',
+  });  

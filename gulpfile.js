@@ -61,7 +61,7 @@ function html() {
     .src('./src/layout/*.pug')
     .pipe(plumber())
     .pipe(pug({ pretty: true }))
-    .pipe(htmlmin({ collapseWhitespace: true }))
+    // .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('./build'))
     .pipe(browserSync.stream());
 };

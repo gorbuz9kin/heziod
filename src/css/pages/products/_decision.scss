@@ -1,5 +1,7 @@
 .decision {
-  background: url('../../../img/products/waves.svg') 0 0 no-repeat;
+  // background-image: url('../../../img/products/waves.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
   background-size: contain;
   padding: 140px 15px 80px;
   @media (max-width: 1200px) {
